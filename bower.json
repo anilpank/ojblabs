@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "y",
+  "homepage": "https://github.com/anilpank/ojblabs",
+  "authors": [
+    "anil.iitk@gmail.com"
+  ],
+  "description": "website",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "website"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7"
+  }
+}
