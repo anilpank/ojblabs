@@ -30,10 +30,7 @@
 				<h1><a href="index.html">OjbLabs</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li>
-						<li><a href="#" class="button special">Sign Up</a></li>
+						<li><a href="index.html">Home</a></li>						
 					</ul>
 				</nav>
 			</header>
@@ -90,156 +87,12 @@
 				
 			</section>
 
-		<!-- One -->
-			<section id="one" class="wrapper style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>Services</h2>
-						<p>Agile. Responsive. You need to be both to stay out in front. </p>
-					</header>
-					<div class="row 150%">
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color1 fa-cloud"></i>
-								<h3>Business Services</h3>
-								<p>Business Applications, Business Intelligence, Digital, Oracle implementation, SAP implementation</p>
-							</section>
-						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color9 fa-desktop"></i>
-								<h3>Technology Services</h3>
-								<p>Application Management, Cloud, Infrastructure and Security, Engineering Services, Enterprise Mobility, Internet of Things (IoT), Testing</p>
-							</section>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color6 fa-rocket"></i>
-								<h3>Consulting</h3>
-								<p>Customer Relationship Management, Engineering & Manufacturing solutions, Enterprise Risk & Security Solutions</p>
-							</section>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="wrapper style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Management Team</h2>
-						<p>Meet the team behind OjbLabs</p>
-					</header>
-					<section class="profiles">
-						<div class="row">
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Anupam Kaushal</h4>
-								<p>Founder</p>
-							</section>
-							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>RJ Verma</h4>
-								<p>VP Operations</p>
-							</section>
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Anil</h4>
-								<p>General Manager</p>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Mayank</h4>
-								<p>Member, Advisory board</p>
-							</section>
-						</div>
-					</section>
-					<footer>
-						<p>OjbLabs helps customers do business better by leveraging our industry-wide experience, deep technology expertise, comprehensive portfolio of services and vertically aligned business model.</p>
-						<ul class="actions">
-							<li>
-								<a href="#" class="button big">Case Studies</a>
-							</li>
-						</ul>
-					</footer>
-				</div>
-			</section>
+		
 
 		
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<section class="links">
-						<div class="row">
-							<section class="3u 6u(medium) 12u$(small)">
-								<h3>Business Services</h3>
-								<ul class="unstyled">
-									<li><a href="assurance-services.html">Assurance Services</a></li>
-									<li><a href="#">BI & Performance Management</a></li>
-									<li><a href="#">Business Process Services</a></li>
-									<li><a href="#">Consulting</a></li>
-									<li><a href="#">Digital Enterprise</a></li>
-								</ul>
-							</section>
-							<section class="3u 6u$(medium) 12u$(small)">
-								<h3>Industries</h3>
-								<ul class="unstyled">
-									<li><a href="#">Banking & Financial Services</a></li>
-									<li><a href="#">Energy - Oil & Gas, Oil Field Services and Renewables</a></li>
-									<li><a href="#">Government</a></li>
-									<li><a href="#">HealthCare</a></li>
-									<li><a href="#">High Tech</a></li>
-								</ul>
-							</section>
-							<section class="3u 6u(medium) 12u$(small)">
-								<h3>More industries</h3>
-								<ul class="unstyled">
-									<li><a href="#">Insurance</a></li>
-									<li><a href="#">Life Sciences</a></li>
-									<li><a href="#">Manufacturing</a></li>
-									<li><a href="#">Media and information services</a></li>
-									<li><a href="#">Telecom</a></li>
-								</ul>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(small)">
-								<h3>Technology Services</h3>
-								<ul class="unstyled">
-									<li><a href="#">Application Management</a></li>
-									<li><a href="#">Cloud, Infrastructure and Security</a></li>
-									<li><a href="#">Enterprise Mobility</a></li>
-									<li><a href="#">Internet of Things (IoT)</a></li>
-									<li><a href="#">Testing</a></li>
-								</ul>
-							</section>
-						</div>
-					</section>
-					<div class="row">
-						<div class="8u 12u$(medium)">
-							<ul class="copyright">
-								<li>&copy; OjbLabs. All rights reserved.</li>
-								<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-								<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
-							</ul>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<ul class="icons">
-								<li>
-									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
-								</li>
-								<li>
-									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
-								</li>
-								<li>
-									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
-								</li>
-								<li>
-									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</footer>
+
+		
+		
 
 	</body>
 </html>

@@ -11,19 +11,7 @@
 <body>
 	<div class="container">
 		<div class="jumbotron">
-			<h1>Scheduling software for Psychiatrists</h1>
-			<p>Coming Soon</p>
-			<form action="addToList.php" id="mail-list" method="post">
-				<div class="row">
-					<div class="col-sm-6">
-						<input placeholder="Enter Email" class="form-control input-lg" name="form-email"
-							id="inputlg" type="text" />
-					</div>
-					<div class="col-sm-6">
-						<button value="Join Mailing List" class="btn btn-primary btn-lg" type="submit">Join Mailing List</button>
-					</div>
-				</div>
-			</form>
+		
 			
 			<?php
  
@@ -32,11 +20,12 @@
  
  if($_SERVER['REQUEST_METHOD'] == 'POST') {
    $email   = stripslashes(trim($_POST['form-email']));
+   $service = stripslashes(trim($_POST['service']));;
    
    $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
    
    if ($email && $emailIsValid) {
-      $subject = "OjbLabs New Member";
+      $subject = "OjbLabs New Member: $service";
       $body = "Email: $email <br />";
       
       $headers  = "MIME-Version: 1.1" . PHP_EOL;
@@ -52,7 +41,7 @@
       
       mail($emailTo, "=?utf-8?B?".base64_encode($subject)."?=", $body, $headers);
       $emailSent = true;
-      echo "<h3>Successfully added to mailing list, Welcome to OjbLabs Family</h3>";      
+      echo "<h3>Hi, This is Anil, Welcome to OjbLabs. I'll be touching base with you soon. Meanwhile have a look at my <a href="blog">blog</a></h3>";      
    }
    else {
        $hasError = true;
